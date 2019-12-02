@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "SnowFlakes",
+  "marketplaceName": {
+    "de": "Schneeflocken",
+    "en": "Snow"
+  },
+  "license": "MIT",
+  "pluginIcon": "icon_plugin_xs.png",
+  "price": 0.00,
+  "description": "Schneefloeckchen",
+  "shortDescription": {
+    "de": "Schneefloeckchen",
+    "en": "Snow flakes"
+  },
+  "categories": [],
+  "author": "Marcus Kreusch",
+  "authorIcon": "icon_author_xs.png",
+  "email": "info@kreusch-creative.de",
+  "phone": "",
+  "keywords": [],
+  "type": "template",
+  "namespace": "SnowFlakes",
+  "javaScriptFiles": [],
+  "containers": [],
+  "dataProviders": [
+    {
+      "key": "SnowFlakes\\Providers\\JsProvider",
+      "name": "Schneeflocken JS",
+      "description": "Schneeflocken JS",
+      "defaultLayoutContainer": "Ceres::Script.AfterScriptsLoaded"
+    }
+  ],
+  "dependencies": []
+}
